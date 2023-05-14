@@ -11,14 +11,16 @@
 
 */
 
-
+$high-white         : #FFFFFFDd;
+$med-white          : #FFFFFF99;
+$low-white          : #FFFFFF60;
 
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color         : #111;
+$text-color         : $high-white;
 $body-font-color    : $text-color;
-$body-bg            : #fdfdfd;
+$body-bg            : #111;
 
 
 
@@ -26,12 +28,12 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1               : #334D5C; // dark turquoise
-$ci-2               : #45B29D; // turquoise
-$ci-3               : #EFC94C; // yellow
-$ci-4               : #E27A3F; // orange
-$ci-5               : #DF4949; // red
-$ci-6               : #A1D044; // green
+$ci-1               : #BF1B39; // dark turquoise // default banner color, buttons
+$ci-2               : #0442BF; // header options
+$ci-3               : #0468BF; // yellow
+$ci-4               : #F2CB05; // orange
+$ci-5               : #F2B705; // red
+$ci-6               : #F2B705; // header active, links
 
 
 
@@ -78,10 +80,10 @@ $topbar-bg          : $topbar-bg-color;
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color  : #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color  : $high-white;
+$topbar-link-color-hover: $high-white;
+$topbar-link-color-active: $high-white;
+$topbar-link-color-active-hover: $high-white;
 
 $topbar-dropdown-label-color: $ci-2;
 $topbar-dropdown-link-bg-hover: $ci-6;
@@ -92,13 +94,13 @@ $topbar-link-bg-active-hover: $ci-2;
 
 
 $topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
+$topbar-dropdown-link-color: $high-white;
 $topbar-dropdown-link-bg: $ci-2;
 
 $topbar-menu-link-color-toggled: $ci-1;
 $topbar-menu-icon-color-toggled: $ci-1;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
+$topbar-menu-link-color: $high-white;
+$topbar-menu-icon-color: $high-white;
 $topbar-menu-link-color-toggled: $ci-6;
 $topbar-menu-icon-color-toggled: $ci-6;
 
