@@ -5,8 +5,12 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-header:
-  image_fullwidth: header_multipixels.png
+
+# about:
+#  text: "Lorem ipsum dolor sit amet. Eum eaque odit aut eaque necessitatibus et soluta fugit. Aut dicta voluptatem sit error excepturi ut temporibus optio qui nobis consequatur nam ratione ratione est voluptatum cupiditate et labore adipisci. Eum velit suscipit eum dolorem voluptatibus ut cumque recusandae sed sunt quasi non eligendi distinctio. In ipsa consequatur et unde fuga et architecto quia. 
+#  <br><br> 
+#  Sit atque consequuntur est accusantium iusto non itaque dolorem et facere quas quo harum veniam ut galisum debitis. Ex temporibus sapiente ut quisquam repellendus ut nihil eaque ea dolorum officia non vitae delectus! Eum totam nemo vel facere obcaecati non ullam eveniet ab ullam numquam 33 enim sunt et fuga impedit et suscipit pariatur. Ea internos aliquid 33 tempora veritatis et autem fuga ex aliquam voluptatibus in quasi sapiente qui deleniti assumenda in distinctio ullam."
+
 widget1:
   title: "Blog & Portfolio"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
@@ -22,6 +26,7 @@ widget3:
   url: 'https://github.com/Phlow/feeling-responsive'
   image: widget-github-303x182.jpg
   text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
+
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,17 +37,24 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+#callforaction:
+#  url: https://tinyletter.com/feeling-responsive
+#  text: Inform me about new updates and features ›
+#  style: alert
 permalink: /index.html
+
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
 #
 homepage: true
 ---
+
+# About Me
+
+Lorem ipsum dolor sit amet. Eum eaque odit aut eaque necessitatibus et soluta fugit. Aut dicta voluptatem sit error excepturi ut temporibus optio qui nobis consequatur nam ratione ratione est voluptatum cupiditate et labore adipisci. Eum velit suscipit eum dolorem voluptatibus ut cumque recusandae sed sunt quasi non eligendi distinctio. In ipsa consequatur et unde fuga et architecto quia. 
+
+Sit atque consequuntur est accusantium iusto non itaque dolorem et facere quas quo harum veniam ut galisum debitis. Ex temporibus sapiente ut quisquam repellendus ut nihil eaque ea dolorum officia non vitae delectus! Eum totam nemo vel facere obcaecati non ullam eveniet ab ullam numquam 33 enim sunt et fuga impedit et suscipit pariatur. Ea internos aliquid 33 tempora veritatis et autem fuga ex aliquam voluptatibus in quasi sapiente qui deleniti assumenda in distinctio ullam.
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
