@@ -367,7 +367,14 @@ mark {
   src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../fonts/iconfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/iconfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/iconfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+       url('../fonts/iconfont.svg#svgFontName') format('svg'), /* Legacy iOS */
+
+       url('../fontawesome/webfonts/fa-brands-400.woff2') format('woff'),
+       url('../fontawesome/webfonts/fa-brands-400.ttf') format('truetype'),
+       url('../fontawesome/webfonts/fa-regular-400.woff2') format('woff'),
+       url('../fontawesome/webfonts/fa-regular-400.ttf') format('truetype'),
+       url('../fontawesome/webfonts/fa-v4compatibility.woff2') format('woff'),
+       url('../fontawesome/webfonts/fa-v4compatibility.ttf') format('truetype');
 }
 
 .iconfont       { font-family: iconfont; }
@@ -431,19 +438,23 @@ mark {
 .icon-vimeo:before,
 .icon-warning:before,
 .icon-xing:before,
-.icon-youtube:before {
-  display: inline-block;
-font-family: "iconfont";
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-line-height: 1;
-text-decoration: inherit;
-text-rendering: optimizeLegibility;
-text-transform: none;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-font-smoothing: antialiased;
+.icon-youtube:before{
+    display: inline-block;
+    font-family: "iconfont";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.fa-brands.fa-itch-io::before{
+    line-height: 1.5;
 }
 
 .icon-archive:before { content: "\f100"; }
@@ -501,3 +512,4 @@ font-smoothing: antialiased;
 .icon-warning:before { content: "\f131"; }
 .icon-xing:before { content: "\f135"; }
 .icon-youtube:before { content: "\f132"; }
+.fa-itch-io { content: "\f83a"; }

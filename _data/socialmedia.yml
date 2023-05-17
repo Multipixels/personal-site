@@ -8,6 +8,16 @@
   class: icon-youtube
   title: "You might find an occasional video posted on here."
 
+- name: LinkedIn
+  url: https://www.linkedin.com/in/richard-motorgeanu/
+  class: icon-linkedin
+  title: ""
+
+- name: "itchio"
+  url: https://multipixels.itch.io/
+  class: "fa-brands fa-itch-io"
+  title: ""
+
 # - name: Twitter
 #   url: http://twitter.com/phlow
 #   class: icon-twitter
