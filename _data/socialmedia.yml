@@ -1,7 +1,7 @@
 - name: GitHub
   url: http://github.com/Multipixels
   class: icon-github
-  title: "The home of all my projects"
+  title: "The home of all my projects."
 
 - name: YouTube
   url: https://www.youtube.com/@richardmotorgeanu9709
@@ -11,44 +11,9 @@
 - name: LinkedIn
   url: https://www.linkedin.com/in/richard-motorgeanu/
   class: icon-linkedin
-  title: ""
+  title: "Interested in hiring me? Look here!"
 
-- name: "itchio"
+- name: "itch.io"
   url: https://multipixels.itch.io/
   class: "fa-brands fa-itch-io"
-  title: ""
-
-# - name: Twitter
-#   url: http://twitter.com/phlow
-#   class: icon-twitter
-#   title: "Immer das Neuste von Phlow gibt es auf Twitter"
-
-# - name: Mixcloud
-#   url: http://www.mixcloud.com/phlow/
-#   class: icon-cloud
-#   title: "Mixe, was sonst?"
-
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
-
-# - name: Soundcloud
-#   url: http://soundcloud.com/
-#   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
-
-# - name: Pinterest
-#   url: http://www.pinterest.com/
-#   class: icon-pinterest
-#   title: ""
-
-# - name: Xing
-#   url: https://www.xing.com/profile/
-#   class: icon-xing
-#   title: Xing Profil
+  title: "My little hub of games."
