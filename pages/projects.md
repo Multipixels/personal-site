@@ -5,7 +5,7 @@ permalink: "/projects/"
 ---
 
 <div class="medium-block-grid-3">
-    {% for post in site.categories.design %}
+    {% for post in site.categories.projects %}
         <li>
             <a href="{{ post.url }}">
                 <div width="100%">
