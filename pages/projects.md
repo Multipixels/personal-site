@@ -7,7 +7,7 @@ permalink: "/projects/"
 <div class="medium-block-grid-3">
     {% for post in site.categories.projects %}
         <li>
-            <a href="{{ post.url }}">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
                 <div width="100%">
                     <div style="position:relative; display: block; padding-bottom: 56.2%;">
                         {% if post.image.thumb %}
