@@ -1,0 +1,45 @@
+---
+layout: default
+format: project-screenshots
+---
+{% if page.image.title %}
+<div class="row t30">
+	<div class="small-12 columns">
+		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
+		{% if page.image.caption_url and page.image.caption %}
+		<p class="text-right caption">
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		</p>
+		<!-- <script>document.getElementById("demo").innerHTML = page.image.caption;</script> -->
+		{% endif %}
+	</div>
+</div>
+{% endif %}
+
+<div class="row t30">
+    <div class="medium-8 columns">
+		<header>
+			{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+			<h1>{{ page.title }}</h1>
+		</header>
+
+		{% if page.teaser %}
+		<p class="teaser">
+			{{ page.teaser }}
+		</p>
+		{% endif %}
+
+		<hr>
+
+		{{ content }}
+    </div>
+    <div class="medium-4 columns">
+        <div class="medium-block-grid-1">
+			{% for screenshot in page.screenshots %}
+            	<li> 
+					<img src="{{ site.urlimg }}{{ screenshot }}" alt="screenshot {{ screenshot }}"> 
+				</li>
+			{% endfor %}
+        </div>
+    </div>
+</div>

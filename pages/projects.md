@@ -19,6 +19,9 @@ permalink: "/projects/"
                     {{ post.title }}
                 </div>
             </a>
+            {% if post.teaser %}
+                <p> {{ post.teaser }} </p>
+            {% endif %}
         </li>
     {% endfor %}
 </div>
