@@ -50,6 +50,19 @@
 <div id="galleryModal" class="reveal-modal large" data-reveal aria-labelledby="galleryModalTitle" aria-hidden="true" role="dialog">
   <h2 id="galleryModalTitle">Screenshots</h2>
 
-  
+  <ul class="example-orbit" data-orbit height="100%">
+	{% for item in page.gallery %}
+		<li>
+			<img src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
+			<div class="orbit-caption">
+				{{ item.caption }}
+			</div>
+		</li>
+	{% endfor %}
+  </ul>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
+
+<script>
+    $(document).foundation();
+</script>
