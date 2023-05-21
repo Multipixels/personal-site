@@ -42,7 +42,7 @@ $wrapper-class: "slideshow-wrapper" !default;
 $preloader-class: "preloader" !default;
 
 // Hide controls on small
-$orbit-nav-hide-for-small: true !default;
+$orbit-nav-hide-for-small: false !default;
 $orbit-bullet-hide-for-small: true !default;
 $orbit-timer-hide-for-small: true !default;
 
@@ -122,6 +122,11 @@ $orbit-timer-hide-for-small: true !default;
       width: 100%;
       position: relative;
       background: $orbit-container-bg;
+      height: 100%;
+
+      &.reveal-modal {
+        height: 400px;
+      }
 
       .orbit-slides-container {
         list-style: none;
@@ -240,7 +245,7 @@ $orbit-timer-hide-for-small: true !default;
       .orbit-prev,
       .orbit-next {
         position: absolute;
-        top: 45%;
+        top: 49%;
         margin-top: -25px;
         width: 36px;
         height: 60px;

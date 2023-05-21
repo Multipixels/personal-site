@@ -48,21 +48,25 @@
 </div>
 
 <div id="galleryModal" class="reveal-modal large" data-reveal aria-labelledby="galleryModalTitle" aria-hidden="true" role="dialog">
-  <h2 id="galleryModalTitle">Screenshots</h2>
-
-  <ul class="example-orbit" data-orbit height="100%">
-	{% for item in page.gallery %}
-		<li>
-			<img src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
-			<div class="orbit-caption">
-				{{ item.caption }}
-			</div>
-		</li>
-	{% endfor %}
-  </ul>
+  <a onclick="$(window).trigger('resize');"> <h2 id="galleryModalTitle">Screenshots</h2> </a>
+	<ul class="example-orbit" data-orbit>
+		{% for item in page.gallery %}
+			<li>
+				<img id="testing" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
+			</li>
+		{% endfor %}
+	</ul>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
+<!-- --------------------------------------------------------------- -->
 
 <script>
-    $(document).foundation();
+	$(document).foundation({
+		orbit: {
+			animation: 'slide', // Sets the type of animation used for transitioning between slides, can also be 'fade'
+			animation_speed: 300, // Sets the amount of time in milliseconds the transition between slides will last
+			bullets: false, // Does the slider have bullets visible?
+			timer: false, // Does the slider have a timer active? Setting to false disables the timer.
+		}
+	});
 </script>

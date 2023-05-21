@@ -108,7 +108,15 @@
 
 	<script src="{{ url }}/assets/js/foundation/foundation.js"></script>
 	<script src="{{ url }}/assets/js/foundation/foundation.orbit.js"></script>
+	<script src="{{ url }}/assets/js/foundation/foundation.reveal.js"></script>
 
 	<script>
-		$(document).foundation();
+		$(document).foundation({
+			orbit: {
+				animation: 'slide', // Sets the type of animation used for transitioning between slides, can also be 'fade'
+				animation_speed: 300, // Sets the amount of time in milliseconds the transition between slides will last
+				bullets: false, // Does the slider have bullets visible?
+				timer: false, // Does the slider have a timer active? Setting to false disables the timer.
+			}
+		});
 	</script>
