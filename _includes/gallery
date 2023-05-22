@@ -28,23 +28,31 @@
 <!-- {{ site.urlimg }}{{ item.image_url }} -->
 
 <div>
+	<p>
+		{% if page.github %}
+			<a href="{{ page.github }}" target="_blank" class="icon-github" style="text-decoration: none; border-bottom: 0px"> GitHub Page</a>
+		{% endif %}
+
+		<br>
+
+		{% if page.itch %}
+			<a href="{{ page.itch }}" target="_blank" style="text-decoration: none; border-bottom: 0px;"> <i class="fa-brands fa-itch-io"></i> Itch.io Page</a>
+		{% endif %}
+
+		<br>
+
+		{% if page.ludum %}
+			<a href="{{ page.ludum }}" target="_blank" style="text-decoration: none; border-bottom: 0px">
+				<img src ="{{ site.urlimg }}../assets/svg/ld-logo.svg" alt="ludum dare icon"/> Ludum Dare Page
+			</a>
+		{% endif %}	
+	</p>
+
 	{% for item in page.gallery %}
 		<a href="#" data-reveal-id="galleryModal">
 			<img style="margin:10px 0px;" height="100%" width="100%" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
 		</a>
 	{% endfor %}
-	<!-- <ul class="clearing-thumbs medium-block-grid-1" data-clearing>
-		{% for item in page.gallery %}
-		{% capture url %}{{ item.image_url }}{% endcapture %}
-		{% assign split_url = url | split: '.' %}
-		{% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
-		<li>
-			<a href="{{ site.urlimg }}{{ item.image_url }}">
-				<img height="100%" width="100%" {% if item.caption %}data-caption="{{ item.caption }}"{% endif %} src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
-			</a>
-		</li>
-		{% endfor %}
-	</ul> -->
 </div>
 
 <div id="galleryModal" class="reveal-modal" data-reveal aria-labelledby="galleryModalTitle" aria-hidden="true" role="dialog">
