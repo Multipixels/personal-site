@@ -47,12 +47,16 @@
 	</ul> -->
 </div>
 
-<div id="galleryModal" class="reveal-modal large" data-reveal aria-labelledby="galleryModalTitle" aria-hidden="true" role="dialog">
-  <a onclick="$(window).trigger('resize');"> <h2 id="galleryModalTitle">Screenshots</h2> </a>
-	<ul class="example-orbit" data-orbit>
+<div id="galleryModal" class="reveal-modal" data-reveal aria-labelledby="galleryModalTitle" aria-hidden="true" role="dialog">
+  <h2 id="galleryModalTitle">Screenshots</h2>
+	<ul id="orbit" class="example-orbit" data-orbit>
 		{% for item in page.gallery %}
 			<li>
-				<img id="testing" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
+				<img id="testing" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}" 
+				onload=
+					'
+					'
+				>
 			</li>
 		{% endfor %}
 	</ul>
@@ -69,4 +73,9 @@
 			timer: false,
 		}
 	});
+
+$('.reveal-modal').on('opened', function(){
+    $(window).trigger('resize');
+	document.getElementById("orbit").style.minHeight = $("#testing").height() + "px";
+});
 </script>
