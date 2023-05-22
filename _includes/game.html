@@ -1,11 +1,11 @@
 <!-- <script src="{{ site.baseurl }}games/{{page.unity_dir}}/TemplateData/UnityProgress.js"></script>   -->
-<script src="{{ site.url }}/games/{{page.unity_dir}}Build/Website.loader.js"></script>
+<!-- script src="{{ site.url }}/games/{{page.unity_dir}}Build/Website.loader.js"></script> -->
 <!-- <script>
   var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}games/{{page.unity_dir}}/Build/builds.json",{onProgress: UnityProgress});  
 </script> -->
 <div id="gameContainer">
     <canvas id="unity-canvas" data-pixel-art="true"></canvas>
-    <script src="{{ site.url }}games/{{page.unity_dir}}Build/Website.loader.js"></script>
+    <script src="{{ site.url }}/games/{{page.unity_dir}}Build/Website.loader.js"></script>
     <script>
         var canvas = document.querySelector("#unity-canvas");
         var config = {
@@ -61,7 +61,6 @@
         onResize();
 
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-            // Mobile device style: fill the whole browser client area with the game canvas:
             const meta = document.createElement('meta');
             meta.name = 'viewport';
             meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
