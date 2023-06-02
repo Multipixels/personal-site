@@ -6,6 +6,8 @@
 #
 layout: frontpage
 
+title: "Multipixels"
+
 # about:
 #  text: "Lorem ipsum dolor sit amet. Eum eaque odit aut eaque necessitatibus et soluta fugit. Aut dicta voluptatem sit error excepturi ut temporibus optio qui nobis consequatur nam ratione ratione est voluptatum cupiditate et labore adipisci. Eum velit suscipit eum dolorem voluptatibus ut cumque recusandae sed sunt quasi non eligendi distinctio. In ipsa consequatur et unde fuga et architecto quia. 
 #  <br><br> 
