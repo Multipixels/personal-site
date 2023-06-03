@@ -63,6 +63,6 @@ Sit atque consequuntur est accusantium iusto non itaque dolorem et facere quas q
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/qaytGFiAcFE" frameborder="0" allowfullscreen></iframe>
   </div>
-  <a class="close-reveal-modal">&#215;</a>
+  <a class="close-reveal-modal">&#215;</a> <br>
   <a class="button tiny radius" href="{{ widget_1.url }}">Project Page ></a>
 </div>
