@@ -15,19 +15,19 @@ title: "Multipixels"
 
 widget1:
   title: "KTaNE Assistant"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  url: '/projects/ktane-assistant'
+  text: 'A high-school project made to help users play Keep Talking and Nobody Explodes without the need of another player. Simply start up the program and describe the bomb as it tells you which wires to cut or what code to insert.'
+  video: '<a href="#" data-reveal-id="videoModal"><img src="images/widget1-thumb.png" width="100%" alt=""/></a>'
 widget2:
   title: "Crop Rush"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  url: '/projects/crop-rush'
+  image: projects/crop-rush-thumb.png
+  text: "A game made for the Ludum Dare 52 game jam. Crop Rush is a short puzzle game in which the player has to harvest all the crops in the least amount of moves possible. The game is inspired by Club Penguin's Thin Ice minigame"
 widget3:
   title: "Nyctomorph"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
+  url: '/projects/nyctomorph'
+  image: projects/nyctomorph-thumb.png
+  text: "A game made for the 5th NOKIA 3310 Game Jam game jam. Nyctomorph is a short survival adventure game in which the player has to survive the night, alone in a dark forest, with only a campfire and a handful of twigs scattered about. Don't stray far from the light... who knows what could be lurking about?"
 
 #
 # Use the call for action to show a button on the frontpage
@@ -58,9 +58,11 @@ Lorem ipsum dolor sit amet. Eum eaque odit aut eaque necessitatibus et soluta fu
 
 Sit atque consequuntur est accusantium iusto non itaque dolorem et facere quas quo harum veniam ut galisum debitis. Ex temporibus sapiente ut quisquam repellendus ut nihil eaque ea dolorum officia non vitae delectus! Eum totam nemo vel facere obcaecati non ullam eveniet ab ullam numquam 33 enim sunt et fuga impedit et suscipit pariatur. Ea internos aliquid 33 tempora veritatis et autem fuga ex aliquam voluptatibus in quasi sapiente qui deleniti assumenda in distinctio ullam.
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
+<div id="videoModal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
+  <h2> KTaNE Assistant Video Demo </h2>
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/qaytGFiAcFE" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
+  <a class="button tiny radius" href="{{ widget_1.url }}">Project Page ></a>
 </div>
