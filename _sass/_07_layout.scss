@@ -262,6 +262,19 @@ body.video cite { color: #fff; }
     background: $grey-2;
 }
 
+@media #{$small-only} {
+    #up-to-top {
+        padding: 40px 0 180px 0;
+    }
+}
+
+@media only screen and (max-width: 65rem) {
+    .content {
+        margin: 0 1em 0 1em; 
+        width: unset;
+    }
+}
+
 
 
 /* Footer
