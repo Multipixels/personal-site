@@ -16,13 +16,6 @@ format: frontpage
 *
 {% endcomment %}
 <div class="row t60">
-    <!-- 
-    {% if page.about.text %}
-        <h1>About Me</h1>
-        <p>{{ page.about.text }}</p>
-    {% endif %}
-    -->
-
     {{content}}
 
     <h1>Featured Projects</h1>
@@ -38,7 +31,7 @@ format: frontpage
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
-</div><!-- /.row -->
+</div>
 
 
 {% comment %}
@@ -46,8 +39,3 @@ format: frontpage
 * Finally, if there is content, spit it out.
 *
 {% endcomment %}
-
-<!-- <div class="row">
-    {{ content }}
-</div>
--->

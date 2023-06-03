@@ -25,22 +25,3 @@ permalink: "/projects/"
         </li>
     {% endfor %}
 </div>
-
-
-<!-- <div class="row">
-    <div class="medium-4 columns ">
-        <img src="{{ site.urlimg }}webdesign_screenshot_andersneu.jpg" alt="">
-        <p>Website: <a href="https://andersneu.de/">andersneu.de</a></p>
-    </div>
-
-    <div class="medium-4 columns ">
-        <img src="{{ site.urlimg }}webdesign_screenshot_mosonic.jpg" alt="">
-        <p>Website: <a href="https://mosonic.net/">mosonic.net</a></p>
-    </div>
-
-    <div class="medium-4 columns ">
-        <img src="{{ site.urlimg }}webdesign_screenshot_moritz_sauer.jpg" alt="">
-        <p>Website: <a href="https://moritz.sauer.io/">Webdesign, SEO, Music</a></p>
-    </div>
-</div> -->
-

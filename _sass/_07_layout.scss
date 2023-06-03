@@ -250,6 +250,7 @@ body.video cite { color: #fff; }
 
 #up-to-top {
     padding: 40px 0 10px 0;
+    bottom: 0;
 }
 #up-to-top a {
     font-size: 24px;
@@ -297,6 +298,10 @@ body.video cite { color: #fff; }
     background: $subfooter-bg;
     color: $subfooter-color;
     padding-top: 30px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
 }
 
 #subfooter-left ul.inline-list {
@@ -314,6 +319,7 @@ body.video cite { color: #fff; }
 
 .social-icons {
     margin-bottom: 10px !important;
+    float:right;
 
 // Beware of SCSS-Syntax here
   li {
