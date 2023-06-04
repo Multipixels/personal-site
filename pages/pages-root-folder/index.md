@@ -54,9 +54,17 @@ homepage: true
 
 # About Me
 
-Lorem ipsum dolor sit amet. Eum eaque odit aut eaque necessitatibus et soluta fugit. Aut dicta voluptatem sit error excepturi ut temporibus optio qui nobis consequatur nam ratione ratione est voluptatum cupiditate et labore adipisci. Eum velit suscipit eum dolorem voluptatibus ut cumque recusandae sed sunt quasi non eligendi distinctio. In ipsa consequatur et unde fuga et architecto quia. 
+<p class="abouttext" markdown="1">
+Hello! My name's Richard Motorgeanu and I'm an undergraduate student at McMaster University studying Computer Science with a passion for Game Development. I've been creating games and programming since the 6th grade, when I made my first game [Pixel Invaders](#). Since then, I've participated in numerous game jams and worked on multiple personal projects. Below, you'll be able find some of my favorite projects, but you can find a full list on the [Projects page](projects). 
+</p>
 
-Sit atque consequuntur est accusantium iusto non itaque dolorem et facere quas quo harum veniam ut galisum debitis. Ex temporibus sapiente ut quisquam repellendus ut nihil eaque ea dolorum officia non vitae delectus! Eum totam nemo vel facere obcaecati non ullam eveniet ab ullam numquam 33 enim sunt et fuga impedit et suscipit pariatur. Ea internos aliquid 33 tempora veritatis et autem fuga ex aliquam voluptatibus in quasi sapiente qui deleniti assumenda in distinctio ullam.
+<p class="abouttext" markdown="1">
+Outside of academics and programming, you'll most likely find me gaming. I'm also currently on McMaster's Fencing Varsity team &#x1F93A;.
+</p>
+
+<p class="abouttext" markdown="1">
+Want to contact me? Feel free to email me here: [motorger@mcmaster.ca](mailto:motorger@mcmaster.ca).
+</p>
 
 <div id="videoModal" class="reveal-modal" data-reveal aria-hidden="true" role="dialog">
   <h2> KTaNE Assistant Video Demo </h2>
