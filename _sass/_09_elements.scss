@@ -94,7 +94,7 @@
 /* Button
 ------------------------------------------------------------------- */
 
-button, .button         { letter-spacing: 1px; }
+button, .button         { letter-spacing: 1px; margin-top: 0.5em }
   button.grey, .button.grey { background: $grey-10; }
   button.grey:hover,
   button.grey:focus,
