@@ -47,7 +47,9 @@
 			</a>
 		{% endif %}	
 	</p>
+</div>
 
+<div>
 	{% for item in page.gallery %}
 		<a href="#" data-reveal-id="galleryModal">
 			<img style="margin:10px 0px;" height="100%" width="100%" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
