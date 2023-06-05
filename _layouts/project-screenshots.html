@@ -3,20 +3,23 @@ layout: default
 format: project-screenshots
 ---
 {% if page.image.title %}
-<div class="row t30">
+<div class="row t60">
 	<div class="small-12 columns">
-		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
-		{% if page.image.caption_url and page.image.caption %}
-		<p class="text-right caption">
-			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-		</p>
-		<!-- <script>document.getElementById("demo").innerHTML = page.image.caption;</script> -->
+		{% if page.game %}
+			<iframe src="{{site.url}}{{page.game}}" width="970" height="546"></iframe>
+		{% elsif page.image %}
+			<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
+			{% if page.image.caption_url and page.image.caption %}
+			<p class="text-right caption">
+				<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+			</p>
+			{% endif %}
 		{% endif %}
 	</div>
 </div>
 {% endif %}
 
-<div class="row t30">
+<div class="row t30 content">
     <div class="medium-8 columns">
 		<header>
 			{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
