@@ -6,9 +6,22 @@ format: project-screenshots
 <div class="row t60">
 	<div class="small-12 columns">
 		{% if page.game %}
-			<iframe src="{{site.url}}{{page.game}}" width="970" height="546"></iframe>
+
+			<script>
+				function startGame() { 
+					document.getElementById("gamebutton").remove(); 
+					document.getElementById("game").remove(); 
+				}
+			</script>
+
+			<div style="height: 546px; width:970px; position: relative; display:flex; align-items:center; justify-content:center ;" >	
+				<img style="position:absolute; border-radius: 0; filter:brightness(0.6);" id="game" src="{{ site.urlimg }}{{ page.image.title }}" width="100%" alt="{{ page.title | escape_once }}">
+				<a id="gamebutton" class="button large radius" style="position: absolute;" href="{{site.url}}{{page.game}}" target="game" onclick="startGame()">Play Game</a>
+				<iframe name="game" width="100%" height="100%" src="about:blank"></iframe>
+			</div>
+			
 		{% elsif page.image %}
-			<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
+			<img id="game" src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
 			{% if page.image.caption_url and page.image.caption %}
 			<p class="text-right caption">
 				<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
