@@ -17,20 +17,19 @@ gallery:
     - image_url: projects/nyctomorph/screenshots/screenshot4.png
 github: https://github.com/Multipixels/Nyctomorph
 itch: https://multipixels.itch.io/nyctmorph
-#game: "/games/nyctomorph/index.html"
+game: "/games/nyctomorph/index.html"
+game_width: 365
+game_height: 635
 header: no
 ---
 
-Crop Rush is a delightful farming puzzle game that puts you behind the wheel of a charming tractor. Inspired by [Club Penguin's Thin Ice minigame](https://clubpenguin.fandom.com/wiki/Thin_Ice), Crop Rush challenges you to navigate through 10 increasingly complex levels filled with crops waiting to be harvested.
+Nyctomorph is a short survival adventure game in which the player has to survive the night, alone in a dark forest, with only a campfire and a handful of twigs scattered about.
 
-In Crop Rush, your goal is to skillfully cut down all the crops in each level while minimizing the number of moves. Aim for perfection and earn a coveted three-star rating by efficiently mowing down the fields. As you progress, the challenges intensify, introducing new elements that require strategic thinking and precise maneuvering.
-
-Are you ready to rev up your tractor and embark on an exciting farming puzzle adventure? Grab your keyboard and prepare to harvest your way to victory in Crop Rush! Let the puzzle-solving and crop-cutting frenzy begin!
+Don't stray far from the light... who knows what could be lurking about?
 
 ### Controls
-
-Only mouse and keyboard is supported.  
-Volume can be adjusted in the main menu and pause menu.
-
-- Movement: WASD / Arrow Keys  
-- Pause Menu: ESC / R
+- Movement: WASD
+- Interact: E
+- Consume: Q
+- Pause: ESC
+- Change Theme: T
