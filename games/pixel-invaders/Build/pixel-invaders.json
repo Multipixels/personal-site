@@ -1,0 +1,16 @@
+{
+"companyName": "MultiMittu",
+"productName": "Pixel Invaders",
+"productVersion": "2.0",
+"dataUrl": "pixel-invaders.data.unityweb",
+"wasmCodeUrl": "pixel-invaders.wasm.code.unityweb",
+"wasmFrameworkUrl": "pixel-invaders.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "pixel-invaders.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.8f1"
+}
