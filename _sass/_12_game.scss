@@ -1,0 +1,56 @@
+@media #{$small-only} {
+    .gameThumbImage {
+        filter: brightness(1);
+    }
+
+    .gameButton {
+        display: none;
+    }
+
+    .gameiframe {
+        display: none;
+    }
+}
+
+@media #{$medium-only} {
+    .gameThumbImage {
+        filter: brightness(1);
+    }
+
+    .gameButton {
+        display: none;
+    }
+
+    .gameiframe {
+        display: none;
+    }
+}
+
+
+@media #{$large-up} {
+    .gameContainer {
+        margin: auto;
+        height: 546px; 
+        width: 970px; 
+        position: relative; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .gameThumbImage {
+        width: 100%;
+        position: absolute; 
+        border-radius: 0; 
+        filter: brightness(0.6);
+    }
+
+    .gameButton {
+        position: absolute;
+    }
+
+    .gameiframe {
+        width: 100%;
+        height: 100%;
+    }
+}

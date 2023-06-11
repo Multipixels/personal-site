@@ -26,11 +26,11 @@ Pixel Invaders is a side-scrolling shooter where you take the role of a spaceshi
 
 It was originally an entry to [A 'Tru 2D' Game Jam](https://itch.io/jam/a-tru-2d-game-jam), the first game jam I participated in. This version of the game featured 3 enemy types. A gameplay video is provided below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P36eNVVHnUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/P36eNVVHnUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I expanded onto the game after the game jam. Added more enemy types, a point system, as well as a shop to buy upgrades and customizations. Alongside this, I made ported the game to be touch-screen friendly. Below is a gameplay video from my phone (please excuse the game resolution issue, I hadn't figured out how to do that at the time 😅).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ddGzmsKsrec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ddGzmsKsrec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Finally, a few years later, I reused Pixel Invaders as part of a school project. This is the version currently available on this page to play.
 
