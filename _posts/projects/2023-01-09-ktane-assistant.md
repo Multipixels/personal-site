@@ -26,23 +26,24 @@ A high-school project made to help users play [Keep Talking and Nobody Explodes]
 ### Prerequisites
 
 * pip
-  ```sh
+  ```
   pip install --upgrade pip
   ```
 
 ### Installation
 
 1. Clone the repo
-   ```sh
+   ```
    git clone https://github.com/Multipixels/Keep-Talking-and-Nobody-Explodes-Bot.git
    ```
 2. Install Python package dependencies
-   ```sh
+   ```
    pip install pynput
    pip install pyttsx3
    pip install pyaudio
    pip install vosk
    ```
+
 3. Install a [Vosk Audio Recognition Model](https://alphacephei.com/vosk/models). Put it in the root folder of the repo.
    - The only two models supported are the following.
      - [vosk-model-en-us-0.22-lgraph](https://alphacephei.com/vosk/models#:~:text=vosk%2Dmodel%2Den%2Dus%2D0.22%2Dlgraph), Faster bootup, but provides less accuracy. If having trouble, try using the next model.
