@@ -1,0 +1,16 @@
+{
+"companyName": "Multipixels",
+"productName": "SelFish",
+"productVersion": "1.0",
+"dataUrl": "selfish.data.unityweb",
+"wasmCodeUrl": "selfish.wasm.code.unityweb",
+"wasmFrameworkUrl": "selfish.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "selfish.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.0f2"
+}
