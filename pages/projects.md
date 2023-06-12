@@ -2,7 +2,6 @@
 layout: page-fullwidth
 title: "Projects"   
 permalink: "/projects/"
-header: no
 ---
 
 <div class="medium-block-grid-3">
