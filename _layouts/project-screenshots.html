@@ -26,7 +26,9 @@ format: project-screenshots
 				<a id="gameButton" class="button large radius gameButton" href="{{site.url}}{{page.game}}" target="game" onclick="startGame()">Play Game</a>
 				<iframe class="gameiframe" name="game" src="about:blank"></iframe>
 			</div>
-			
+		
+		{% elsif page.video %}
+			<iframe width="100%" height="540" src="{{ page.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		{% elsif page.image %}
 			<img id="game" src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
 			{% if page.image.caption_url and page.image.caption %}

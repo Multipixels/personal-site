@@ -13,6 +13,7 @@ show_meta: false
 gallery:
     - image_url: projects/ktane-assistant/screenshots/screenshot1.png
 github: https://github.com/Multipixels/Keep-Talking-and-Nobody-Explodes-Bot
+video: https://www.youtube.com/embed/qaytGFiAcFE
 header: no
 ---
 

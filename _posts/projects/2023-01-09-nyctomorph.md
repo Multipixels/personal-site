@@ -11,6 +11,7 @@ image:
     title: projects/nyctomorph-thumb.png
 show_meta: false
 gallery:
+    - image_url: projects/nyctomorph/screenshots/gif1.gif
     - image_url: projects/nyctomorph/screenshots/screenshot1.png
     - image_url: projects/nyctomorph/screenshots/screenshot2.png
     - image_url: projects/nyctomorph/screenshots/screenshot3.png
