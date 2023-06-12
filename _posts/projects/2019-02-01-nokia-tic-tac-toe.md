@@ -14,7 +14,6 @@ gallery:
     - image_url: projects/nokia-tic-tac-toe/screenshots/screenshot1.png
     - image_url: projects/nokia-tic-tac-toe/screenshots/screenshot2.png
     - image_url: projects/nokia-tic-tac-toe/screenshots/screenshot3.png
-    - image_url: projects/nokia-tic-tac-toe/screenshots/screenshot4.png
 github: https://github.com/Multipixels/Crop-Rush
 itch: https://github.com/Multipixels/Nokia-3310-Tic-Tac-Toe---Jam---PC
 game: "/games/nokia-tic-tac-toe/index.html"
