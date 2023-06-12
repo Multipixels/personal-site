@@ -14,7 +14,6 @@ gallery:
     - image_url: projects/pixel-breaker/screenshots/screenshot1.png
     - image_url: projects/pixel-breaker/screenshots/screenshot2.png
     - image_url: projects/pixel-breaker/screenshots/screenshot3.png
-    - image_url: projects/pixel-breaker/screenshots/screenshot4.png
 github: https://github.com/Multipixels/Pixel-Breaker
 itch: https://multipixels.itch.io/pixel-breaker
 game: "/games/pixel-breaker/index.html"
