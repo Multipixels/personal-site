@@ -17,7 +17,7 @@ gallery:
     - image_url: projects/nyctomorph/screenshots/screenshot3.png
     - image_url: projects/nyctomorph/screenshots/screenshot4.png
 github: https://github.com/Multipixels/Nyctomorph
-itch: https://multipixels.itch.io/nyctmorph
+itch: https://multipixels.itch.io/nyctomorph
 game: "/games/nyctomorph/index.html"
 game_width: 365
 game_height: 635
