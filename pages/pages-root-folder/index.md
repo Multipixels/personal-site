@@ -55,7 +55,7 @@ homepage: true
 # About Me
 
 <p class="abouttext" markdown="1">
-Hello! My name's Richard Motorgeanu and I'm an undergraduate student at McMaster University studying Computer Science with a passion for Game Development. I've been creating games and programming since the 6th grade, when I made my first game [Pixel Invaders](#). Since then, I've participated in numerous game jams and worked on multiple personal projects. Below, you'll be able find some of my favorite projects, but you can find a full list on the [Projects page](projects). 
+Hello! My name's Richard Motorgeanu and I'm an undergraduate student at McMaster University studying Computer Science with a passion for Game Development. I've been creating games and programming since the 6th grade, when I made my first game [Pixel Invaders](projects/pixel-invaders). Since then, I've participated in numerous game jams and worked on multiple personal projects. Below, you'll be able find some of my favorite projects, but you can find a full list on the [Projects page](projects). 
 </p>
 
 <p class="abouttext" markdown="1">
