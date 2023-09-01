@@ -21,5 +21,10 @@ This League of Legends Match History project was made as part of a Grade 11 proj
 
 This project also introduced me to creating project writeups and documentation. Attached below are my two small writeups I submitted as part of my project.
 
-<iframe src="{{ site.urlimg }}projects/lol-match-history/documents/SoftwareDevelopmentProject-March2021.pdf">
-<iframe src="{{ site.urlimg }}projects/lol-match-history/documents/SoftwareDevelopmentProject-April2021.pdf">
+## March 2021
+
+<iframe src="{{ site.urlimg }}projects/lol-match-history/documents/SoftwareDevelopmentProject-March2021.pdf" width="100%" height="800"></iframe>
+
+## April 2021
+
+<iframe src="{{ site.urlimg }}projects/lol-match-history/documents/SoftwareDevelopmentProject-April2021.pdf" width="100%" height="800"></iframe>
