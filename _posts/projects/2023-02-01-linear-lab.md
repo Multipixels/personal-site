@@ -27,5 +27,3 @@ We offer textbook-formatted lessons, sprinkled with interactive exercises that e
 A sandbox mode is also included to let students explore a visualization of two dimensional linear algebra.
 
 Try it out [here](https://nickjg1.github.io/linear-lab/)!
-
-<embed src="{{ site.urlimg }}games/linear-lab/sandbox.html" width="100%" height="540">
