@@ -57,7 +57,7 @@
 			{% endif %}
 
 			{% if item.video_url %}
-				<video autoplay="autoplay" muted style="margin:10px 0px;" height="100%" width="100%" alt="{{ item.caption }}">
+				<video loop autoplay="autoplay" muted style="margin:10px 0px;" height="100%" width="100%" alt="{{ item.caption }}">
 					<source src="{{ site.urlimg }}{{ item.video_url }}" type="video/mp4">
 					Your browser does not support the video tag.
 				</video>

@@ -8,8 +8,8 @@ categories:
     - projects
 image:
     thumb: projects/opengl-thumb.png
-mp4:
-    title: projects/opengl-thumb.mp4
+    image: projects/opengl-thumb.png
+    video_url: projects/opengl-thumb.mp4
 show_meta: false
 gallery:
     - image_url: projects/opengl/screenshots/screenshot1.png
