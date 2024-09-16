@@ -1,7 +1,7 @@
 ---
 layout: project-screenshots
-title:  "Exploring OpenGL"
-teaser: "A short summer exploration of OpenGL."
+title:  "Simple Perlin Noise Generation in OpenGL"
+teaser: "A short summer exploration of Perlin Noise and OpenGL."
 tags:
     - post format
 categories:
@@ -16,7 +16,7 @@ gallery:
     - image_url: projects/opengl/screenshots/screenshot3.gif
     - image_url: projects/opengl/screenshots/screenshot4.gif
     - image_url: projects/opengl/screenshots/screenshot5.gif
-    - image_url: projects/opengl/screenshots/screenshot6.mp4
+    - video_url: projects/opengl/screenshots/screenshot6.mp4
 header: no
 ---
 

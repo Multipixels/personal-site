@@ -52,7 +52,16 @@
 <div>
 	{% for item in page.gallery %}
 		<a href="#" data-reveal-id="galleryModal">
-			<img style="margin:10px 0px;" height="100%" width="100%" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
+			{% if item.image_url %}
+				<img style="margin:10px 0px;" height="100%" width="100%" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}">
+			{% endif %}
+
+			{% if item.video_url %}
+				<video autoplay="autoplay" muted style="margin:10px 0px;" height="100%" width="100%" alt="{{ item.caption }}">
+					<source src="{{ site.urlimg }}{{ item.video_url }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			{% endif %}
 		</a>
 	{% endfor %}
 </div>
@@ -61,6 +70,8 @@
   <h2 id="galleryModalTitle">Screenshots</h2>
 	<ul id="orbit" class="example-orbit" data-orbit>
 		{% for item in page.gallery %}
+		
+		{% if item.image_url %}
 			<li>
 				<img class="modalImage" id="testing{{forloop.index0}}" src="{{ site.urlimg }}{{ item.image_url }}" alt="{{ item.caption }}" 
 				onload=
@@ -68,6 +79,17 @@
 					'
 				>
 			</li>
+		{% endif %}
+
+		{% if item.video_url %}
+			<li>
+				<video controls autoplay="autoplay" muted id="testing{{forloop.index0}}" class="modalImage" alt="{{ item.caption }}">
+					<source src="{{ site.urlimg }}{{ item.video_url }}" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</li>
+		{% endif %}
+		
 		{% endfor %}
 	</ul>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
@@ -92,11 +114,11 @@ $('.reveal-modal').on('opened', function(){
 	var img = document.getElementById("testing0");
 	var items = document.getElementsByClassName('modalImage');
 
-	if (img.width > img.height) {
+	if (img.width > img.height || img.videoWidth > img.videoHeight) {
 		for(i = 0; i < items.length; i++) {
 			items[i].style.width = "100%";
 		}
-	} else if (img.width < img.height){
+	} else if (img.width < img.height || img.videoWidth < img.videoHeight){
 		for(i = 0; i < items.length; i++) {
 			items[i].style.width = "50%";
 		}
@@ -115,11 +137,11 @@ $("#orbit").on("after-slide-change.fndtn.orbit", function(event, orbit) {
 	var img = document.getElementById(`testing${orbit.slide_number}`);
 	var items = document.getElementsByClassName('modalImage');
 
-	if (img.width > img.height) {
+	if (img.width > img.height || img.videoWidth > img.videoHeight) {
 		for(i = 0; i < items.length; i++) {
 			items[i].style.width = "100%";
 		}
-	} else if (img.width < img.height){
+	} else if (img.width < img.height || img.videoWidth < img.videoHeight){
 		for(i = 0; i < items.length; i++) {
 			items[i].style.width = "50%";
 		}
