@@ -29,13 +29,19 @@ format: project-screenshots
 		
 		{% elsif page.video %}
 			<iframe width="100%" height="540" src="{{ page.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		{% elsif page.image %}
+		{% elsif page.image.title %}
 			<img id="game" src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
 			{% if page.image.caption_url and page.image.caption %}
 			<p class="text-right caption">
 				<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 			</p>
 			{% endif %}
+		{% elsif page.mp4 %}
+			<video id="game" width="970" alt="{{ page.title | escape_once }}">
+				<source src="{{ site.urlimg }}{{ item.video_url }}" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
 		{% endif %}
 	</div>
 </div>
