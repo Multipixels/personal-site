@@ -8,7 +8,7 @@ categories:
     - projects
 image:
     thumb: projects/lotus-thumb.png
-    image: projects/lotus-thumb.png
+    title: projects/lotus-thumb.png
 show_meta: false
 gallery:
 github: https://github.com/Multipixels/lotus-lang
