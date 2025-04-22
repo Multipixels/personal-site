@@ -1,0 +1,81 @@
+---
+layout: default
+format: project-screenshots
+---
+{% if page.image %}
+<div class="row t60">
+	<div class="small-12 columns">
+
+		<img id="game" src="{{ site.urlimg }}{{ page.image.title }}" width="20%" alt="{{ page.title | escape_once }}">
+		<p class="text-right caption">
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		</p>
+
+		<div class="row t60">
+			<div class="medium-8 columns">
+				<textarea class="lotus-input highlight" id="input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+-- Find the sum of the values in a collection
+integer sum = 0;
+collection<integer> myCollection = [2, 4, 6];
+
+iterate(value : myCollection) {
+  sum = sum + value;
+}
+
+log(sum);</textarea>
+				<input class="lotus-submit button tiny radius" type="submit" id="submit" value="Run">
+			</div>
+			<div class="medium-4 columns">
+				Output
+				<p class="lotus-output highlight" id="output">12</p>
+			</div>
+		</div>
+
+	
+
+		<!-- Lotus Script -->
+		<script type="module">
+			const submit = document.getElementById('submit');
+			const input = document.getElementById('input');
+			const output = document.getElementById('output');
+
+			let lotus;
+
+			submit.addEventListener('click', () => {
+				output.textContent = '';
+				lotus.run(input.value)
+			})
+
+			const originalLog = console.log;
+			console.log = (...vals) => {
+				const mapped = [...vals].map(v => `${v}`).join(' ');
+				output.textContent += mapped + "\r\n";
+			};
+
+			import LotusBuilder from '{{site.url}}/games/lotus-lang/LotusLangWeb.mjs';
+			lotus = await LotusBuilder();
+		</script>
+			
+	</div>
+</div>
+{% endif %}
+
+<div class="row t30 content">
+    <div class="medium-8 columns">
+		<header>
+			{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+			<h1>{{ page.title }}</h1>
+		</header>
+
+		{% if page.teaser %}
+		<p class="teaser">
+			{{ page.teaser }}
+		</p>
+		{% endif %}
+
+		{{ content }}
+    </div>
+    <div class="medium-4 columns">
+		{% include gallery %}
+    </div>
+</div>

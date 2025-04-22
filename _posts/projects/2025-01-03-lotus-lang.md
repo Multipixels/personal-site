@@ -1,5 +1,5 @@
 ---
-layout: project-screenshots
+layout: project-lotus
 title:  "Lotus"
 teaser: "A statically-typed procedural programming language with an interpreter built in C++."
 tags:
@@ -12,7 +12,7 @@ image:
 show_meta: false
 gallery:
 github: https://github.com/Multipixels/lotus-lang
-header: no
+header: false
 ---
 
 Lotus is a programming language I developed to explore the principles of statically-typed procedural languages, test-driven development, and software testing. With Lotus, you can write programs using familiar constructs like collections, dictionaries, and control structures, all parsed and interpreted through an interpreter written in C++.
@@ -54,7 +54,7 @@ integer sum = 0;
 collection<integer> myCollection = [2, 4, 6];
 
 iterate(value : myCollection) {
-  sum = sum + myCollection;
+  sum = sum + value;
 }
 
 log(sum);
