@@ -34,7 +34,11 @@ format: project-screenshots
 
 			submit.addEventListener('click', () => {
 				output.textContent = '';
-				lotus.run(input.value)
+				try {
+					lotus.run(input.value);
+				} catch (error) {
+                    console.log("Unexpected error occurred.");
+				}
 			});
 
 			const originalLog = console.log;
