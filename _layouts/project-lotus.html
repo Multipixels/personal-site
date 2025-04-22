@@ -35,7 +35,7 @@ format: project-screenshots
 			submit.addEventListener('click', () => {
 				output.textContent = '';
 				lotus.run(input.value)
-			})
+			});
 
 			const originalLog = console.log;
 			console.log = (...vals) => {
