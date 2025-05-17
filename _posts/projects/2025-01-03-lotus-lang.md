@@ -62,7 +62,7 @@ Ensure you have the following installed:
    ii. (Mac/Linux) Run `make`
 
 6. (Optional, Windows only) Compile the project for the web w/ Emscripten. Requires Emscripten installed and setup.
-   ```sh
+   ```
    mkdir out
    cd out
    mkdir build-wasm
